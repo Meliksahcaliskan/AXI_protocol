@@ -1,55 +1,72 @@
-# Prerequisites
-*.d
+# ───────────────────────────────────────────────
+# Quartus Generated Output & Databases
+# ───────────────────────────────────────────────
+db/
+incremental_db/
+simulation/questa/
+output_files/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# ───────────────────────────────────────────────
+# Compiled Object Files
+# ───────────────────────────────────────────────
+*.rpt
+*.summary
+*.sof
+*.pof
+*.jdi
+*.pin
+*.smsg
+*.flow.rpt
+*.map.rpt
+*.fit.rpt
+*.asm.rpt
+*.sta.rpt
+*.eda.rpt
+*.jdi
+*.rbf
+*.ekp
+*.esf
+*.qws
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# ───────────────────────────────────────────────
+# Quartus Temp / Lock Files
+# ───────────────────────────────────────────────
+*.qws
+*.bak
+*.orig
+*.log
+*.tmp
+*.done
+*.dpf
+c5_pin_model_dump.txt
+*.cdf           # Usually auto-generated, optional to track
 
-# Precompiled Headers
-*.gch
-*.pch
+# ───────────────────────────────────────────────
+# Quartus IP Generated Files
+# ───────────────────────────────────────────────
+*.sopcinfo
+hps_isw_handoff/
+*.spd
+*.ppf
+*.svd
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ───────────────────────────────────────────────
+# Simulation (ModelSim / QuestaSim)
+# ───────────────────────────────────────────────
+*.vcd
+*.wlf
+transcript
+vsim.wlf
+work/
+mentor/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# ───────────────────────────────────────────────
+# OS & Editor Junk
+# ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.png
